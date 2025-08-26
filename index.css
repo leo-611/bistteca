@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Fondamento:ital@0;1&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 413px;
+
+    width: 100%;
+    height: 160px;
+
+    background-color: rgba(225, 0, 179, 0.2);
+    border: 10px solid;
+}
