@@ -9,6 +9,7 @@
 
 body{
     background-color: #0000ff;
+    height: 100vh;
 }
 
 header{
@@ -38,7 +39,7 @@ header nav ul li {
     border-radius: 50px;
 
     width: 241px;
-    height: 77px;
+    height: 5%;
 
     margin-right: 145px;
     background-color: #0000ff;
@@ -66,8 +67,8 @@ main {
     margin-left: auto;
     margin-right: auto;
 
-    width: 1950px;
-    height: 700px;
+    width: 95%;
+    height: 80%;
     background-color: #0000ff;
     border: 19px solid;
     border-radius: 50px;
