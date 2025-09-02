@@ -91,9 +91,9 @@ main {
 }
 
 .brino_1 img,
-.brino_3 img{
-    width: 138px;
-    height: 137px;
+.brino_3 img {
+    width: 50%;
+    height: 20%;
     object-fit: cover;
 }
 
