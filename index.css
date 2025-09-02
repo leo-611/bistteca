@@ -15,7 +15,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 413px;
+    gap: 5%;
 
     width: 100%;
     height: 160px;
@@ -23,6 +23,13 @@ header{
     background-color: rgba(249, 3, 200, 0.2);
     border: 10px solid;
 }
+nav li {
+    font-family: "Coral Pixels", serif;
+    font-weight: 200px;
+    font-style: normal;
+    text-align: center;
+}
+
 
 header nav ul li {
     display: inline-block;
@@ -35,8 +42,6 @@ header nav ul li {
 
     margin-right: 145px;
     background-color: #0000ff;
-
-
 }
 
 header nav ul li {
@@ -51,25 +56,59 @@ header img {
     border: 10px solid;
     border-radius: 25px;
 }
-main{
+
+main {
     display: flex;
     align-items: center;
     justify-content: space-around;
 
-    margin-top: 45px;
+    margin: 45px;
     margin-left: auto;
     margin-right: auto;
 
-     width: 1950px;
-     height: 700px;
-     background-color: #0000ff;
+    width: 1950px;
+    height: 700px;
+    background-color: #0000ff;
+    border: 19px solid;
+    border-radius: 50px;
+}
 
-     border: 10px solid;
-     border-radius: 50px;
-    }
+.brino_1,
+.brino_3 {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
 
-    .leon1,.leon2{
-        display: flex;
-        flex-flow: column;
-        align-items: center;
-    }
+    width: 250px;
+    height: 549px;
+
+    background-color: #0000ff;
+
+    border: 10px solid;
+    border-radius: 50px;
+}
+
+.brino_1 img,
+.brino_3 img{
+    width: 138px;
+    height: 137px;
+    object-fit: cover;
+}
+
+.brino_2 {
+
+    width: 950px;
+    height: 502px;
+
+    background-color: #0000ff;
+    border: 10px solid;
+    border-radius: 268px;
+}
+
+.brino_2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 268px;
+}
