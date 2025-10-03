@@ -9,7 +9,7 @@ function trocaFoto() {
         foto_troca = true;
     } else {
         for (let i = 0; i < imagem.length; i++) {
-            imagem[i].src = `img/brino${i + 1}.jpeg`;
+            imagem[i].src = `img/leon${i + 1}.jpeg`;
         }
         foto_troca = false;
     }
